@@ -27,5 +27,12 @@ Route::get('/', function () {
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
+
+    Route::get('form','Demo\DemoController@form');
+
+    Route::post('form/disposeForm','Demo\DemoController@disposeForm');
+
 });
+
+
+
