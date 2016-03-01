@@ -78,6 +78,22 @@
 * php artisan make:request FormRequest
     * 这样会在app/Http/Requests目录下生成FormRequest.php
 
+
+* php artisan make:auth
+    * 创建一个登录、注册基础的视图和路由的脚手架
+
+    Created View: /data/www/personal/project/laravel5.2.0_demo/resources/views/auth/login.blade.php
+    Created View: /data/www/personal/project/laravel5.2.0_demo/resources/views/auth/register.blade.php
+    Created View: /data/www/personal/project/laravel5.2.0_demo/resources/views/auth/passwords/email.blade.php
+    Created View: /data/www/personal/project/laravel5.2.0_demo/resources/views/auth/passwords/reset.blade.php
+    Created View: /data/www/personal/project/laravel5.2.0_demo/resources/views/auth/emails/password.blade.php
+    Created View: /data/www/personal/project/laravel5.2.0_demo/resources/views/layouts/app.blade.php
+    Created View: /data/www/personal/project/laravel5.2.0_demo/resources/views/home.blade.php
+    Created View: /data/www/personal/project/laravel5.2.0_demo/resources/views/welcome.blade.php
+    Installed HomeController.
+    Updated Routes File.
+    Authentication scaffolding generated successfully!
+
 七、项目目录结构说明
 
     +app
