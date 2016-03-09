@@ -68,7 +68,7 @@
         }
     }
 ```
-修改根目录下的composer.json文件，如上所示，在psr-4下面新添加 "App\\Models\\": "app/Models" ，然后执行composer install 命令，则app/Models目录中的文件就实现了自动加载
+修改根目录下的composer.json文件，如上所示，在psr-4下面新添加 "App\\Models\\": "app/Models" ，然后执行composer update 命令，则app/Models目录中的文件就实现了自动加载
 
 八、Laravel中的常用命令
 
