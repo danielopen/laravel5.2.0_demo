@@ -9,7 +9,6 @@ class AuthController extends Controller
 
     public function showLogin()
     {
-
         return $this->view('admin.auth.login');
     }
 
